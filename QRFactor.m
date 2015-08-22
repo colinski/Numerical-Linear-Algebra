@@ -2,21 +2,23 @@
 % Factorizes a square matrix A into an orthogonal matrix Q 
 % and an upper trianglur matrix R, such that A = Q*R.
 %
-% Input:    A (square matrix to be factored)
+% Input:
+% A - square matrix to be factored
 %
-% Output:   Q (orthogonal matrix)
-%           R (upper trianglur matrix)
+% Output:   
+% Q - orthogonal matrix
+% R - upper trianglur matrix
 function [Q, R] = QRFactor(A)
 %calculate the order of A
 m = length(A(1,:));
 
-%intialize R as a copy of A
+%initialize R as a copy of A
 R = A;
 
-%intialize Q as the idenitiy matrix
+%initialize Q as the idenitiy matrix
 Q = eye(m);
 
-%for each row/column of A
+%for each row of A
 for i = 1:m-1
     %calculate vectors x and y
     x = R(:,i);
