@@ -10,7 +10,7 @@
 % Q - mxn matrix
 % S - (n+1)xn matrix
 function [Q, S] = ArnoldiMethod(A, b, n)
-%set the fi,rst column of Q
+%set the first column of Q
 Q(:,1) = b/norm(b);
 
 %for the given number iterations
