@@ -11,12 +11,12 @@
 % S - (n+1)xn matrix
 function [Q, S] = ArnoldiMethod(A, b, n)
 %set the fi,rst column of Q
-Q(:,1) = b/norm(b)
+Q(:,1) = b/norm(b);
 
 %for the given number iterations
 for i=1:n
     %set the ith column of Q
-    v = A*Q(:,i)
+    v = A*Q(:,i);
     
     %set the values of S
     for j=1:i
