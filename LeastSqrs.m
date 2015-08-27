@@ -25,5 +25,5 @@ end
 %if the matrix is square, solve as usual
 if m == n
     x = QRSolve(A, b);
-end
+end 
 end
