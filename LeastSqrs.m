@@ -14,7 +14,7 @@ function [x] = LeastSqrs(A, b)
 %overdetermined
 if m > n
     x = QRSolve(A'*A, A'*b);
-end
+end 
 
 %underdetermined
 if m < n
