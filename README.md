@@ -1,4 +1,6 @@
 # Numerical-Linear-Algebra
+Colin Samplawski
+
 These files were created for coursework in Math/CS 513 at UW-Madison.
 
 Some of functions are dependent on other functions (QRSolve uses QRFactor for example), so the whole package needs to be downloaded in order to be used.
