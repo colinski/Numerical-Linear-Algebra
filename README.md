@@ -1,4 +1,4 @@
-# Numerical-Linear-Algebra
+# Numerical-Linear-Algebra-Toolkit
 Colin Samplawski
 
 These files were created for coursework in Math/CS 513 at UW-Madison.
